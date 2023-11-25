@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topnav{
+    background-color: rgb(252, 252, 253);
+}
+.logo{
+    background-color: darkgray;
+   
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    display: block; /*display good*/
+}
+ul li a:hover{
+    color: rgb(223, 0, 0);
+}
+ul li ul.dropdown li{
+    display: block;
+    border-bottom: 1px solid black;
+    
+}
+/*  */
+ul li ul.dropdown{
+    position: absolute;
+    background-color:beige;
+    width: 100%;
+    display: none;
+}
+.active{
+ background-color: chocolate;;
+}
+/* created class for droping down with javascript */
+ul li ul.dropdownopen{
+    display: block;
+}
+
+ul li ul.dropdown li:hover{
+    background-color: burlywood;
+    
+
+}
+.toggle{
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+    display: none;
+    border: 1px solid white;
+    padding:inherit;
+}
+
+@media screen and (max-width:600px) {
+    nav{
+        display: none; /* hide toggle*/
+        
+    }
+   
+    ul li{
+        display: block;
+    }
+    ul li a{
+        font-size: medium;
+        padding: 8px 10px;
+    }
+    ul li ul.dropdown{
+        position: relative;
+        background-color: rgb(173, 173, 173);
+    }
+    .display{
+        display: block; /* display toggle created with javascript*/
+    }
+    .toggle{
+        display: block;
+    }
+}
