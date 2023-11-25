@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(images/back4.jpg);
+    background-image: url(back4.jpg);
     background-position: center;
     background-size: cover;
     
@@ -61,5 +61,5 @@ body{
     .main{
         display: block;
     }
-    body{background-image: url(images/back1.jpg);}
+    body{background-image: url(back1.jpg);}
 }
