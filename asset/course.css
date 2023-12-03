@@ -37,6 +37,7 @@
 }
 .container .box-list .box p{
     line-height: 1.5;
+    padding: 5px 0;
 }
 .container .box-list .box .btn{
     background-color: chocolate;
