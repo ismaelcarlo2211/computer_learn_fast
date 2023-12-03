@@ -46,7 +46,8 @@ ul li ul.dropdown{
     display: none;
 }
 .active{
- color: chocolate;;
+ color: chocolate;
+ font-weight: bold;
 }
 /* created class for droping down with javascript */
 ul li ul.dropdownopen{
