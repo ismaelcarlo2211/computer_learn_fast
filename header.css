@@ -9,6 +9,9 @@
  .logoname{
      float: left;
  }
+body{
+    overflow: scroll;
+}
 .topnav{
     background-color: rgb(252, 252, 253);
     
@@ -65,7 +68,8 @@ ul li ul.dropdown li:hover{
     top: 0.5rem;
     display: none;
     border: 1px solid white;
-    padding:inherit;
+    padding:0 5px;
+    margin-right: 2px;
 }
 
 @media screen and (max-width:600px) {
