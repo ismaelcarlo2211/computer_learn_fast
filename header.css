@@ -84,7 +84,7 @@ ul li ul.dropdown li:hover{
 
     ul li ul.dropdown{
         position: relative;
-        background-color: rgb(173, 173, 173);
+        
     }
     .display{
         display: block; /* display toggle created with javascript*/
